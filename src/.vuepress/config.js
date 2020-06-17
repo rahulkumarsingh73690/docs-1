@@ -83,6 +83,7 @@ module.exports = {
     },
     nav: [
       { text: "Docs", link: "/" },
+      { text: "dApps", link: "/dapps/" },
       { text: "Validators", link: "/validator/" },
       { text: "Core Devs", link: "/dev/" },
       {
@@ -92,6 +93,13 @@ module.exports = {
       },
     ],
     sidebar: {
+      "/dapps/": [
+        "/dapps/",
+        {
+          title: "Smart Contracts",
+          children: ["/dapps/tutorial"],
+        },
+      ],
       "/dev/": [
         "/dev/",
         {
@@ -142,7 +150,6 @@ module.exports = {
             "stablecoin",
             "seigniorage",
             "governance",
-            "smart-contracts",
           ],
         },
         {
