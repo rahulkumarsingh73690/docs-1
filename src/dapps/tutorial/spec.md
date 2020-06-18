@@ -1,6 +1,6 @@
 # Contract Specification
 
-A smart contract can be considered a singleton object whose internal state is persisted on the blockchain. Users can trigger state changes through sending it JSON messages, and users can also query its state through JSON messages. These messages are different than Terra blockchain messages such as `MsgSend` and `MsgSwap`.
+A smart contract can be considered a singleton object whose internal state is persisted on the blockchain. Users can trigger state changes through sending it JSON messages, and users can also query its state through sending a request formatted as a JSON message. These messages are different than Terra blockchain messages such as `MsgSend` and `MsgSwap`.
 
 ::: warning NOTE
 Going forward, it is important to be aware of the distinction between native messages intended for inclusion within transactions, and messages that invoke smart contract functions.
