@@ -96,8 +96,13 @@ module.exports = {
       "/dapps/": [
         "/dapps/",
         {
-          title: "Smart Contracts",
-          children: ["/dapps/tutorial"],
+          title: "Tutorial",
+          children: [
+            "/dapps/tutorial/",
+            "/dapps/tutorial/setup",
+            "/dapps/tutorial/spec",
+            "/dapps/tutorial/implementation",
+          ],
         },
       ],
       "/dev/": [
